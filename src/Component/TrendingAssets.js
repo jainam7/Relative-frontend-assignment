@@ -1,50 +1,68 @@
 import React from "react";
 
 import "../Styles/BTC.css";
-import "../Styles/Solana.css"
-import "../Styles/Ethereum.css"
-import "../Styles/Binance.css"
-import "../Styles/Shibu.css"
+import "../Styles/Solana.css";
+import "../Styles/Ethereum.css";
+import "../Styles/Binance.css";
+import "../Styles/Shibu.css";
+import "../index.css";
 
-import logo from "../Vector.svg";
-import vectorPng from "../Vector.png";
-import bitCoin from "../Bitcoin.svg";
-import BitCoinLogo from "../BitcoinLogo.svg";
-import Ethereum from "../Ethereum.svg";
-import Binance from "../Binance.svg";
-import BinanceDiamond from "../BinanceDiamond.svg";
-import SolanaBG from "../SolanaBG.svg";
-import ethereumLogo from "../ethereumLogo.svg";
-import card from "../card.svg";
-import VectorRound from "../VectorRound.svg";
-import SolanaVector from "../SolanaVector.svg";
-import EthereumVector from "../EthereumVector.svg";
-import BinanceVector from "../BinanceVector.svg";
-import ShibuVector from "../ShibuVector.svg";
-import SolanaRoundVector from '../SolanaRoundVector.svg'
+import TrendingAssteslogo from "../Assets/TrendingAsset/TrendingAssteslogo.svg";
+import TrendingAssetsVector from "../Assets/TrendingAsset/TrendingAssetsVector.png";
 
 
-import EthereumVectorRound from '../Assets/Ethereum/EthereumVectorRound.svg'
-import ShibaVector from '../Assets/Shiba/ShibaVector.svg'
-import ShibaLogo from '../Assets/Shiba/ShibaLogo.svg'
-import SolanaLogo from "../Assets/Solana/SolanaLogo.svg"
-import BinanceLogo from '../Assets/Binance/BinanceCoinLogo.svg'
+import BitCoin from "../Assets/Bitcoin/Bitcoin.svg";
+import BitCoinLogo from "../Assets/Bitcoin/BitcoinLogo.svg";
+import BitCoinVectorRound from "../Assets/Bitcoin/BitCoinVectorRound.svg";
 
+
+import card from "../Assets/TrendingAsset/card.svg";
+
+
+import Binance from "../Assets/Binance/Binance.svg";
+import BinanceVector from "../Assets/Binance/BinanceVector.svg";
+import BinanceDiamond from "../Assets/Binance/BinanceDiamond.svg";
+import BinanceLogo from "../Assets/Binance/BinanceCoinLogo.svg";
+
+import EthereumVector from "../Assets/Ethereum/EthereumVector.svg";
+import EthereumVectorRound from "../Assets/Ethereum/EthereumVectorRound.svg";
+import Ethereum from "../Assets/Ethereum/Ethereum.svg";
+import EthereumLogo from "../Assets/Ethereum/EthereumLogo.svg";
+
+import ShibaVector from "../Assets/Shiba/ShibaVector.svg";
+import ShibaLogo from "../Assets/Shiba/ShibaLogo.svg";
+import ShibuVector from "../Assets/Shiba/ShibuVector.svg";
+
+import SolanaRoundVector from "../Assets/Solana/SolanaRoundVector.svg";
+import SolanaLogo from "../Assets/Solana/SolanaLogo.svg";
+import SolanaVector from "../Assets/Solana/SolanaVector.svg";
+import SolanaBG from "../Assets/Solana/SolanaBG.svg";
 
 const TrandingAssets = () => {
   return (
     <>
-      <img className="trendingAssetIconVector" src={vectorPng} />
-      <img className="trendingAssetIcon" src={logo} />
+     
+      <div style={{
+          display: 'flex',
+          justifyContent:'center',
+          marginRight:'170px'
+      }}>
+      <img className="trendingAssetIconVector" src={TrendingAssetsVector} />
+      <img className="trendingAssetIcon" src={TrendingAssteslogo} />
 
       <div className="trendingAsset">Trending Assets</div>
 
-      <div style={{ display: "flex", position: "absolute" }}>
+      <div style={{ display: "flex", 
+          flexWrap: 'wrap',
+          justifyContent: 'center',
+          columnGap: '70.26px',
+          
+         }}>
         <div className="card">
           <img src={card} style={{ width: "290px", height: "430px" }} />
           <div className="coin">
-            <img src={VectorRound} />
-            <img className="bitCoin" src={bitCoin} />
+            <img src={BitCoinVectorRound} />
+            <img className="bitCoin" src={BitCoin} />
             <img className="bitCoinLogo" src={BitCoinLogo} />
           </div>
 
@@ -78,10 +96,10 @@ const TrandingAssets = () => {
                 top: "12px",
                 left: "52px",
               }}
-              src={ethereumLogo}
+              src={EthereumLogo}
             />
             <div>
-              <img className="binanceOuter" src={bitCoin} />
+              <img className="binanceOuter" src={BitCoin} />
               <img className="diamond" src={BinanceDiamond} />
               <img className="binance" src={Binance} />
             </div>
@@ -89,9 +107,8 @@ const TrandingAssets = () => {
           <div className="popularPairText">Popular Pairs</div>
         </div>
 
-
-        {/* solana */}
-        <div className="card1">
+      {/* solana */}
+      <div className="card1">
           <img src={card} style={{ width: "290px", height: "430px" }} />
           <div className="coin">
             <img src={SolanaVector} />
@@ -117,7 +134,7 @@ const TrandingAssets = () => {
 
           <div className="popularPairBtc">
             <div>
-            <img className="solanaBitCoinLogo" src={bitCoin} />
+            <img className="solanaBitCoinLogo" src={BitCoin} />
             <img className="solanaBtcPairIcon" src={BitCoinLogo} />
             </div>
 
@@ -130,10 +147,10 @@ const TrandingAssets = () => {
                 top: "12px",
                 left: "52px",
               }}
-              src={ethereumLogo}
+              src={EthereumLogo}
             />
             <div>
-              <img className="binanceOuter" src={bitCoin} />
+              <img className="binanceOuter" src={BitCoin} />
               <img className="diamond" src={BinanceDiamond} />
               <img className="binance" src={Binance} />
             </div>
@@ -142,10 +159,8 @@ const TrandingAssets = () => {
 
         </div>
 
-
-
-        {/* etherium */}
-        <div className="card1">
+      {/* etherium */}
+      <div className="card1">
           <img src={card} style={{ width: "290px", height: "430px" }} />
           <div className="coin">
             <img src={EthereumVector} />
@@ -158,7 +173,7 @@ const TrandingAssets = () => {
                 top: "33.51%",
                 left: "-25%",
               }}
-              src={ethereumLogo}
+              src={EthereumLogo}
             />
           </div>
           <div className="bitCoinText">Ethereum (ETH) </div>
@@ -185,11 +200,11 @@ const TrandingAssets = () => {
 
       
              <div>
-            <img className="btcPairLogo" src={bitCoin} />
+            <img className="btcPairLogo" src={BitCoin} />
             <img className="btcPairIcon"  src={BitCoinLogo} />
             </div>
             <div>
-              <img className="binanceOuter" src={bitCoin} />
+              <img className="binanceOuter" src={BitCoin} />
               <img className="diamond" src={BinanceDiamond} />
               <img className="binance" src={Binance} />
             </div>
@@ -200,13 +215,12 @@ const TrandingAssets = () => {
 
         </div>
 
-        
-        {/* binance */}
-        <div className="card1">
+      {/* binance */}
+      <div className="card1">
           <img src={card} style={{ width: "290px", height: "430px" }} />
           <div className="coin">
             <img src={BinanceVector} />
-            <img className="binanceVector" src={bitCoin} />
+            <img className="binanceVector" src={BitCoin} />
             <img className="binanceDiamond" src={BinanceDiamond} />
             <img className="binanceLogo" src={BinanceLogo} />
           </div>
@@ -241,10 +255,10 @@ const TrandingAssets = () => {
                 top: "12px",
                 left: "52px",
               }}
-              src={ethereumLogo}
+              src={EthereumLogo}
             />
             <div>
-              <img className="binanceOuter" src={bitCoin} />
+              <img className="binanceOuter" src={BitCoin} />
               <img className="diamond" src={BinanceDiamond} />
               <img className="binance" src={Binance} />
             </div>
@@ -253,10 +267,8 @@ const TrandingAssets = () => {
 
         </div>
 
-
-
-        {/* shibu */}
-        <div className="card1" style={{ paddingRight: "70px" }}>
+      {/* shibu */}
+      <div className="card1" >
           <img src={card} style={{ width: "290px", height: "430px" }} />
           <div className="coin">
             <img src={ShibuVector} />
@@ -294,10 +306,10 @@ const TrandingAssets = () => {
                 top: "12px",
                 left: "52px",
               }}
-              src={ethereumLogo}
+              src={EthereumLogo}
             />
             <div>
-              <img className="binanceOuter" src={bitCoin} />
+              <img className="binanceOuter" src={BitCoin} />
               <img className="diamond" src={BinanceDiamond} />
               <img className="binance" src={Binance} />
             </div>
@@ -307,7 +319,7 @@ const TrandingAssets = () => {
 
         </div>
 
-
+      </div>
       </div>
     </>
   );

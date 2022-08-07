@@ -1,3 +1,4 @@
+
 .trendingAsset {
   position: absolute;
   width: 146px;
@@ -34,7 +35,6 @@
 }
 .trendingAssetIconVector {
   position: absolute;
-
   height: 13.333333969116211px;
   width: 13.333333969116211px;
   top: 241.33px;
@@ -58,7 +58,7 @@
   right: 1529.26px;
   top: 371.92px;
   bottom: 205px;
-  margin-left: 70px;
+  /* margin-left: 70px; */
 }
 .cryptoCard {
   height: 435px;
@@ -78,7 +78,6 @@
 
 .coin {
   box-sizing: border-box;
-
   height: 100px;
   width: 99.99999237060547px;
   left: 95.3701171875px;
@@ -107,10 +106,8 @@
   height: 30.56px;
   left: calc(50% - 24.07px / 2 + 0.8px);
   top: 34.41px;
-
   height: 30.56113624572754px;
   width: 22.07196617126465px;
-
   border-radius: 0px;
 }
 
@@ -122,7 +119,6 @@
   right: 0.09%;
   top: 12.48%;
   bottom: 0%;
-
   backdrop-filter: blur(100px);
 }
 .bitCoinText {
@@ -131,17 +127,13 @@
   height: 31px;
   left: 32px;
   top: 121px;
-
   font-family: "Tomorrow";
   font-style: normal;
   font-weight: 600;
   font-size: 12px;
   line-height: 31px;
-
   text-align: center;
-
   color: #737bae;
-
   opacity: 0.9;
 }
 .rectanglePriceBox {
@@ -152,19 +144,16 @@
   height: 40px;
   left: 25px;
   top: 235px;
-
   background: #14172b;
   border-radius: 17px;
 }
 .btcPriceBox {
   box-sizing: border-box;
-
   position: absolute;
   width: 242px;
   height: 40px;
   left: 21px;
   top: 160px;
-
   background: #14172b;
   border-radius: 17px;
 }
@@ -173,19 +162,14 @@
   height: 31px;
   left: 21px;
   top: 164.5px;
-
   margin-top: 4px;
-
   font-family: "Tomorrow";
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
   line-height: 31px;
-
   text-align: center;
-
   color: #ecf0ff;
-
   opacity: 0.9;
 }
 
@@ -195,17 +179,13 @@
   height: 31px;
   left: 199.42px;
   top: 164.5px;
-
   font-family: "Tomorrow";
   font-style: normal;
   font-weight: 600;
   font-size: 12px;
   line-height: 31px;
-
   text-transform: uppercase;
-
   color: #00ffa3;
-
   opacity: 0.9;
 }
 .priceText {
@@ -220,11 +200,8 @@
   font-weight: 600;
   font-size: 12px;
   line-height: 31px;
-
   text-align: center;
-
   color: #5a5f7d;
-
   opacity: 0.9;
 }
 .actualPriceBtc {
@@ -233,17 +210,13 @@
   height: 31px;
   left: 25px;
   top: 239.5px;
-
   font-family: "Tomorrow";
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
   line-height: 31px;
-
   text-align: center;
-
   color: #ecf0ff;
-
   opacity: 0.9;
 }
 .tvlText {
@@ -258,12 +231,9 @@
   font-weight: 600;
   font-size: 12px;
   line-height: 31px;
-
   text-align: center;
   text-transform: uppercase;
-
   color: #5a5f7d;
-
   opacity: 0.9;
 }
 .popularPairBtc {
@@ -272,7 +242,6 @@
   height: 40px;
   left: 87px;
   top: 310px;
-
   background: #14172b;
   border-radius: 29.5px;
 }
@@ -313,11 +282,11 @@
   top: 9px;
 }
 .diamond {
-    position: absolute;
-    width: 6px;
-    height: 4px;
-    left: 93px;
-    top: 18px;
+  position: absolute;
+  width: 6px;
+  height: 4px;
+  left: 93px;
+  top: 18px;
 }
 .popularPairText {
   position: absolute;
@@ -325,17 +294,13 @@
   height: 31px;
   left: 27px;
   top: 358px;
-
   font-family: "Tomorrow";
   font-style: normal;
   font-weight: 600;
   font-size: 12px;
   line-height: 31px;
-
   text-align: center;
   text-transform: uppercase;
-
   color: #5a5f7d;
-
   opacity: 0.9;
 }

@@ -1,11 +1,5 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Tomorrow:wght@100;200;300;400;500;600;700&display=swap'); 
 body {
-  background: linear-gradient(
-    180deg,
-    rgba(0, 0, 0, 1) 0%,
-    rgba(0, 0, 0, 1) 99%,
-    rgba(0, 0, 0, 1) 100%,
-    rgba(255, 255, 255, 1) 100%
-  );
+  background: #14172B
 }
 
