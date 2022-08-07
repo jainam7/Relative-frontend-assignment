@@ -1,0 +1,21 @@
+.binanceVector {
+  position: absolute;
+  width: 49.99px;
+  height: 50px;
+  left: 25px;
+  top: 25px;
+}
+.binanceLogo {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  left: 37px;
+  top: 37px;
+}
+.binanceDiamond{
+    position: absolute;
+    width: 7.65px;
+    height: 7.65px;
+    left: 46px;
+    top: 46px;
+}

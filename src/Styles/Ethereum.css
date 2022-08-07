@@ -1,0 +1,22 @@
+.ethereumVectorRound {
+  position: absolute;
+  left: 25%;
+  right: 25%;
+  top: 25%;
+  bottom: 25%;
+}
+.btcPairLogo {
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  left: 50px;
+  top: 9px;
+}
+
+.btcPairIcon {
+  position: absolute;
+  width: 9.74px;
+  height: 13.49px;
+  left: 56px;
+  top: 13px;
+}

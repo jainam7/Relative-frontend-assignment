@@ -1,0 +1,28 @@
+.solanaVector {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 25px;
+  top: 25px;
+}
+.solanaLogo {
+  position: absolute;
+  width: 86.13px;
+  height: 16.8px;
+  left: 6px;
+  top: 41px;
+}
+.solanaBitCoinLogo {
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  left: 10px;
+  top: 10px;
+}
+.solanaBtcPairIcon {
+  position: absolute;
+  width: 9.74px;
+  height: 13.49px;
+  left:16px ;
+  top: 14px;
+}
