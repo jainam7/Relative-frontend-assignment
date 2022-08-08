@@ -52,7 +52,7 @@ const TrandingAssets = () => {
                       : { color: "#00ffa3" }
                   }
                 >
-                  &nbsp;
+                  &nbsp;&nbsp;
                   {s.dayRange === "negative" ? "-" : "+"}
                   {s.percentage}%
                 </div>
