@@ -1,0 +1,37 @@
+.trendingAsset {
+  position: absolute;
+  width: 146px;
+  height: 32px;
+  left: 111px;
+  top: 232px;
+  botton: 663px;
+  right: 1650px;
+  font-family: "Tomorrow";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: -0.01em;
+  color: #ecf0ff;
+  opacity: 0.9;
+}
+
+.trendingAssetIcon {
+  position: absolute;
+  left: 83.89px;
+  right: 1816.89px;
+  top: 246.34px;
+  bottom: 677.34px;
+  width: 6.23px;
+  height: 3.32px;
+}
+.trendingAssetIconVector {
+  position: absolute;
+  height: 13.333333969116211px;
+  width: 13.333333969116211px;
+  top: 241.33px;
+  left: 80.33px;
+  bottom: 672.33px;
+  right: 1813.33px;
+  border-radius: 0px;
+}

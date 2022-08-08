@@ -1,0 +1,204 @@
+@import url("https://fonts.googleapis.com/css2?family=Tomorrow:wght@100;200;300;400;500;600;700&display=swap");
+
+body {
+  background: #14172b;
+}
+
+.cardList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 70.26px;
+}
+
+.mainDiv {
+  display: flex;
+  justify-content: center;
+  margin-right: 170px;
+}
+
+.positive {
+  color: #00ffa3;
+}
+
+.negative {
+  color: #ff4d4d;
+}
+
+.cardSize {
+  width: 290px;
+  height: 430px;
+}
+
+.card {
+  box-sizing: border-box;
+  position: relative;
+  left: 87px;
+  right: 1529.26px;
+  top: 371.92px;
+  bottom: 205px;
+}
+
+.coin {
+  box-sizing: border-box;
+  height: 100px;
+  width: 99.99999237060547px;
+  left: 95.3701171875px;
+  top: -3.0799560546875px;
+  border-radius: 100px;
+  position: absolute;
+  background: linear-gradient(
+    180deg,
+    rgba(98, 106, 136, 0.1) 0%,
+    rgba(234, 179, 0, 0.06) 100%
+  );
+  backdrop-filter: blur(100px);
+}
+
+.coinText {
+  position: absolute;
+  width: 231px;
+  height: 31px;
+  left: 32px;
+  top: 121px;
+  font-family: "Tomorrow";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 31px;
+  text-align: center;
+  color: #737bae;
+  opacity: 0.9;
+}
+
+.priceBox {
+  box-sizing: border-box;
+  position: absolute;
+  width: 242px;
+  height: 40px;
+  left: 21px;
+  top: 160px;
+  background: #14172b;
+  border-radius: 17px;
+}
+
+.price {
+  width: 241px;
+  height: 31px;
+  left: 21px;
+  top: 164.5px;
+  margin-top: 4px;
+  font-family: "Tomorrow";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 31px;
+  text-align: center;
+  color: #ecf0ff;
+  opacity: 0.9;
+}
+
+
+.percentage {
+  position: absolute;
+  width: 62.58px;
+  height: 31px;
+  left: 199.42px;
+  top: 164.5px;
+  font-family: "Tomorrow";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 31px;
+  text-transform: uppercase;
+  color: #00ffa3;
+  opacity: 0.9;
+}
+
+.actualPrice {
+  margin-top: 4px;
+  width: 241px;
+  height: 31px;
+  left: 25px;
+  top: 239.5px;
+  font-family: "Tomorrow";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 31px;
+  text-align: center;
+  color: #ecf0ff;
+  opacity: 0.9;
+}
+
+.popularPairs {
+  position: absolute;
+  width: 121.75px;
+  height: 40px;
+  left: 87px;
+  top: 310px;
+  background: #14172b;
+  border-radius: 29.5px;
+}
+
+.popularPairText {
+  position: absolute;
+  width: 241px;
+  height: 31px;
+  left: 27px;
+  top: 358px;
+  font-family: "Tomorrow";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 31px;
+  text-align: center;
+  color: #5a5f7d;
+  opacity: 0.9;
+}
+
+.priceText {
+  position: absolute;
+  width: 241px;
+  height: 31px;
+  left: 25px;
+  top: 200px;
+  font-family: "Tomorrow";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 31px;
+  text-align: center;
+  color: #5a5f7d;
+  opacity: 0.9;
+}
+
+.rectanglePriceBox {
+  box-sizing: border-box;
+  position: absolute;
+  width: 242px;
+  height: 40px;
+  left: 25px;
+  top: 235px;
+  background: #14172b;
+  border-radius: 17px;
+}
+
+.tvlText {
+  position: absolute;
+  width: 241px;
+  height: 31px;
+  left: 27px;
+  top: 275px;
+
+  font-family: "Tomorrow";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 31px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #5a5f7d;
+  opacity: 0.9;
+}
+

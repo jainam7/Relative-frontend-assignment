@@ -20,3 +20,17 @@
   left: 56px;
   top: 13px;
 }
+.ethereumLogo {
+  width: 20px;
+  position: absolute;
+  height: 15px;
+  top: 12px;
+  left: 52px;
+}
+.ethereumMainLogo {
+  width: 150px;
+  position: absolute;
+  height: 30px;
+  top: 33.51%;
+  left: -25%;
+}
